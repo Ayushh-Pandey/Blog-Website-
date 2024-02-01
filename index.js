@@ -34,3 +34,4 @@ app.listen(PORT, () => {
     connect();
     console.log(`Server is running successfully on PORT http://localhost:${PORT}`)
 });
+module.exports = app;
